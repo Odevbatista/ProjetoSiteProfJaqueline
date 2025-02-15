@@ -1,0 +1,134 @@
+/* Estilos para a Tabela de Cursos */
+.table-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #0056b3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons form {
+    display: inline;
+}
+
+.action-buttons button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.action-buttons button:hover {
+    background: #b52b3a;
+}
+
+.add-course-button {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-course-button:hover {
+    background: #218838;
+}
+
+/* Estilos para o botão de curso comprado */
+/* Botão padrão de compra */
+button.comprar {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.comprar:hover {
+    background-color: #b52b3a;
+}
+
+/* Botão verde quando o curso já foi comprado */
+button.comprado {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: default;
+    transition: 0.3s;
+}
+
+button.comprado:hover {
+    background-color: #28a745;
+}
+
+/* Botão de Editar */
+button.editar {
+    background-color: #ffc107; /* Amarelo */
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.editar:hover {
+    background-color: #e0a800;
+}
+
+/* Botão de Excluir */
+button.excluir {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+}
+
+button.excluir:hover {
+    background-color: #b52b3a;
+}
